@@ -22,16 +22,19 @@ public class comprasSteps {
 
     @Dado("^confirma o resultado da busca$")
     public void confirmaOResultadoDaBusca() throws Throwable {
+        login.confirmaBusca();
 
     }
 
     @Quando("^escolher um produto da busca$")
     public void escolherUmProdutoDaBusca() throws Throwable {
+        login.escolherProduto();
 
     }
 
     @Quando("^adicionar no carrinho$")
     public void adicionarNoCarrinho() throws Throwable {
+        login.adicionarSacola();
 
     }
 

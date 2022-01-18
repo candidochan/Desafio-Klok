@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.581394">
-<testcase classname="Realizar Compra no E-commerce" name="Validar Busca por produto" time="16.581394">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.951065">
+<testcase classname="Realizar Compra no E-commerce" name="Validar Busca por produto" time="28.951065">
 <system-out><![CDATA[Dado que o usuario entra no site da loja....................................passed
 E faça uma busca por um produto.............................................passed
 E confirma o resultado da busca.............................................passed
