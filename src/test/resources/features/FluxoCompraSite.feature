@@ -1,7 +1,7 @@
 #language: pt
 
 
-Funcionalidade: Realizar Compra no E-commerce
+Funcionalidade: Realizar Compra no site da Magazine Luiza
 
   Como um comprador
   Quero ver a lista de produtos disponíveis
@@ -16,5 +16,3 @@ Funcionalidade: Realizar Compra no E-commerce
     E adicionar no carrinho
     Entao o produto deve estar presente no carrinho
 
-  #@Corretor
-  #
