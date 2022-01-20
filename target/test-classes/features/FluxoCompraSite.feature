@@ -1,18 +1,27 @@
 #language: pt
 
 
-Funcionalidade: Realizar Compra no site da Magazine Luiza
+Funcionalidade: Realizar Compra no site da Amazon Brasil
 
-  Como um comprador
-  Quero ver a lista de produtos disponíveis
-  Para que eu possa escolher qual devo comprar
+  Contexto: Entrar em um grande portal de comércio online e adicionar produto com sucesso!
 
-  @ValidarBuscaPorProduto
-  Cenario: Validar Busca por produto
+
+  @ComprarProduto
+  Cenário: Validar Busca por produto
     Dado que o usuario entra no site da loja
     E faça uma busca por um produto
     E confirma o resultado da busca
     Quando escolher um produto da busca
     E adicionar no carrinho
     Entao o produto deve estar presente no carrinho
+
+  @AdicionarAcessorios
+  Cenário: Adicionar acessórios para a compra
+    Dado que o usuario entra no site da loja
+    E faça uma busca por acessorios
+    E confirma o resultado da busca
+    Quando escolher os produtos
+    E adicionar acessórios no carrinho
+    Entao os produtos deverao estar presente no carrinho
+
 

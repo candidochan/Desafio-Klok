@@ -20,7 +20,7 @@ public class Hooks {
         System.out.println("Starting - " + _scenario.getName());
         System.out.println("------------------------------------------------------------");
         DriverFactory.getDriver().manage().window().maximize();
-        //DriverFactory.getDriver().get("https://www.magazineluiza.com.br/");
+        //DriverFactory.getDriver().get("https://www.amazon.com.br/");
 
     }
 
