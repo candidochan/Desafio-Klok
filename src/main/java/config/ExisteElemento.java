@@ -4,7 +4,7 @@ import webDriver.BasePage;
 import webDriver.DriverFactory;
 
 public class ExisteElemento extends BasePage {
-    String URL = "https://homobapp.sompo.com.br/PortalCorretor_Th/Login.aspx";
+    String URL = "https://www.amazon.com.br/";
 
     public void setUp() {
         DriverFactory.getDriver().get(URL);
