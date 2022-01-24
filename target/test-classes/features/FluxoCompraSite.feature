@@ -1,6 +1,6 @@
 #language: pt
 
-
+@funcionais
 Funcionalidade: Realizar Compra no site da Amazon Brasil
 
   Contexto: Entrar em um grande portal de comércio online e adicionar produto com sucesso!

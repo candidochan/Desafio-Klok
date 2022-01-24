@@ -27,8 +27,8 @@ public class comprasPage extends BasePage {
         Thread.sleep(1000);
         clicarBotao(loja.btnPreco);
         Thread.sleep(2000);
-        clicarBotao(loja.btnLoja);
-        Thread.sleep(2000);
+        //clicarBotao(loja.btnLoja);
+        //Thread.sleep(2000);
 
 
     }
@@ -50,6 +50,9 @@ public class comprasPage extends BasePage {
     public void adicionarSacola() throws InterruptedException {
         clicarBotao(loja.addSacola);
         Thread.sleep(2000);
+        clicarBotao(loja.btnGarantia);
+        Thread.sleep(1000);
+
 
     }
 
@@ -69,13 +72,15 @@ public class comprasPage extends BasePage {
         escrever(loja.btnPesquisa, "Controle sem Fio Xbox - Carbon Black");
         Thread.sleep(2000);
         DriverFactory.getDriver().findElement(loja.btnPesquisa).sendKeys(Keys.ENTER);
-        clicarBotao(loja.btnMicrosoftA);
+        clicarBotao(loja.btnMarcaMicrosoftA);
         Thread.sleep(2000);
 
     }
 
     public void escolherAcessorio() throws InterruptedException {
         clicarBotao(loja.btnAcessorio);
+        Thread.sleep(3000);
+        clicarBotao(loja.corControle);
         Thread.sleep(3000);
         WebElement element = DriverFactory.getDriver().findElement(loja.btnQuantidade);
         Select select= new Select(element);

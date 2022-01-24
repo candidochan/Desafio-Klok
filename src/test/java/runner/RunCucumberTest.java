@@ -21,7 +21,7 @@ import cucumber.api.junit.Cucumber;
                 "json:target/cucumber-reports/cucumber.json"
         },
 
-        tags = {"@ComprarProduto"}                   //Alterar a tags do cenário a ser testado
+        tags = {"@AdicionarAcessorios"}                   //Alterar a tags do cenário a ser testado
 
 )
 public class RunCucumberTest {

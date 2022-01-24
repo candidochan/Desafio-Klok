@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.089313">
-<testcase classname="Realizar Compra no site da Amazon Brasil" name="Validar Busca por produto" time="35.089313">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="33.731755">
+<testcase classname="Realizar Compra no site da Amazon Brasil" name="Adicionar acessórios para a compra" time="33.731755">
 <system-out><![CDATA[Dado que o usuario entra no site da loja....................................passed
-E faça uma busca por um produto.............................................passed
+E faça uma busca por acessorios.............................................passed
 E confirma o resultado da busca.............................................passed
-Quando escolher um produto da busca.........................................passed
-E adicionar no carrinho.....................................................passed
-Entao o produto deve estar presente no carrinho.............................passed
+Quando escolher os produtos.................................................passed
+E adicionar acessórios no carrinho..........................................passed
+Entao os produtos deverao estar presente no carrinho........................passed
 ]]></system-out>
 </testcase>
 </testsuite>

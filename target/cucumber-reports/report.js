@@ -10,10 +10,16 @@ formatter.feature({
   "name": "Realizar Compra no site da Amazon Brasil",
   "description": "",
   "id": "realizar-compra-no-site-da-amazon-brasil",
-  "keyword": "Funcionalidade"
+  "keyword": "Funcionalidade",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@funcionais"
+    }
+  ]
 });
 formatter.before({
-  "duration": 2275648300,
+  "duration": 2513515800,
   "status": "passed"
 });
 formatter.background({
@@ -24,93 +30,97 @@ formatter.background({
   "keyword": "Contexto"
 });
 formatter.scenario({
-  "line": 10,
-  "name": "Validar Busca por produto",
+  "line": 19,
+  "name": "Adicionar acessórios para a compra",
   "description": "",
-  "id": "realizar-compra-no-site-da-amazon-brasil;validar-busca-por-produto",
+  "id": "realizar-compra-no-site-da-amazon-brasil;adicionar-acessórios-para-a-compra",
   "type": "scenario",
   "keyword": "Cenário",
   "tags": [
     {
-      "line": 9,
-      "name": "@ComprarProduto"
+      "line": 18,
+      "name": "@AdicionarAcessorios"
     }
   ]
 });
 formatter.step({
-  "line": 11,
+  "line": 20,
   "name": "que o usuario entra no site da loja",
   "keyword": "Dado "
 });
 formatter.step({
-  "line": 12,
-  "name": "faça uma busca por um produto",
+  "line": 21,
+  "name": "faça uma busca por acessorios",
   "keyword": "E "
 });
 formatter.step({
-  "line": 13,
+  "line": 22,
   "name": "confirma o resultado da busca",
   "keyword": "E "
 });
 formatter.step({
-  "line": 14,
-  "name": "escolher um produto da busca",
+  "line": 23,
+  "name": "escolher os produtos",
   "keyword": "Quando "
 });
 formatter.step({
-  "line": 15,
-  "name": "adicionar no carrinho",
+  "line": 24,
+  "name": "adicionar acessórios no carrinho",
   "keyword": "E "
 });
 formatter.step({
-  "line": 16,
-  "name": "o produto deve estar presente no carrinho",
+  "line": 25,
+  "name": "os produtos deverao estar presente no carrinho",
   "keyword": "Entao "
 });
 formatter.match({
   "location": "comprasSteps.queOUsuarioEntraNoSiteDaLoja()"
 });
 formatter.result({
-  "duration": 4978567300,
+  "duration": 4580554300,
   "status": "passed"
 });
 formatter.match({
-  "location": "comprasSteps.façaUmaBuscaPorUmProduto()"
+  "location": "comprasSteps.façaUmaBuscaPorAcessorios()"
 });
 formatter.result({
-  "duration": 13050785900,
+  "duration": 7180458900,
   "status": "passed"
 });
 formatter.match({
   "location": "comprasSteps.confirmaOResultadoDaBusca()"
 });
 formatter.result({
-  "duration": 2044462200,
+  "duration": 2061580700,
   "status": "passed"
 });
 formatter.match({
-  "location": "comprasSteps.escolherUmProdutoDaBusca()"
+  "location": "comprasSteps.escolherOsProdutos()"
 });
 formatter.result({
-  "duration": 5133839900,
+  "duration": 10694951900,
   "status": "passed"
 });
 formatter.match({
-  "location": "comprasSteps.adicionarNoCarrinho()"
+  "location": "comprasSteps.adicionarAcessóriosNoCarrinho()"
 });
 formatter.result({
-  "duration": 3579641200,
+  "duration": 3268337800,
   "status": "passed"
 });
 formatter.match({
-  "location": "comprasSteps.oProdutoDeveEstarPresenteNoCarrinho()"
+  "location": "comprasSteps.osProdutosDeveraoEstarPresenteNoCarrinho()"
 });
 formatter.result({
-  "duration": 3285725900,
+  "duration": 2456548300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 740642600,
+  "duration": 228282500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 747525200,
   "status": "passed"
 });
 });
