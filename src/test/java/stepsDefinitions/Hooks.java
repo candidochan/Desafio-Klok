@@ -1,6 +1,6 @@
 package stepsDefinitions;
 
-import com.sun.deploy.cache.Cache;
+
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -9,9 +9,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import webDriver.BaseSteps;
 import webDriver.DriverFactory;
-
 import java.io.File;
 import java.io.IOException;
+import static webDriver.BaseSteps.scenario;
 
 public class Hooks {
 
@@ -20,7 +20,7 @@ public class Hooks {
      **/
     @Before
     public void scenario(Scenario _scenario) throws Throwable {
-        BaseSteps.scenario = _scenario;
+        scenario = _scenario;
 
         BaseSteps.OpenBrowser();
 
@@ -31,6 +31,7 @@ public class Hooks {
         //DriverFactory.getDriver().get("https://www.amazon.com.br/");
 
     }
+
     @After(order = 1)
     public void screenshot(Scenario cenario) {
         File file = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.FILE);
@@ -43,20 +44,14 @@ public class Hooks {
 
     @After(order = 0)
     public void fechaBrowser() throws InterruptedException {
-        DriverFactory.killDriver();
-        System.out.println("Finalizando cenário de teste.");
-    }
-
-   /* @After
-    public void Finish(Scenario scenario) throws Throwable {
-        System.out.println("------------------------------------------------------------");
-        System.out.println(scenario.getStatus() + " " + scenario.getName());
-        System.out.println("------------------------------------------------------------");
         //Gera ScreenShot
         if (scenario.isFailed()) {
             BaseSteps.screenShotNow();
         }
-        BaseSteps.CloseBrowser();
+        DriverFactory.killDriver();
+        System.out.println("------------------------------------------------------------");
+        System.out.println("Finalizando cenário de teste.");
+        System.out.println("------------------------------------------------------------");
+    }
 
-    }*/
 }

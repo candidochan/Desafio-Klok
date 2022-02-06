@@ -15,8 +15,8 @@ public class comprasSteps {
 
     }
 
-    @Dado("^faça uma busca por um produto$")
-    public void façaUmaBuscaPorUmProduto() throws Throwable {
+    @Dado("^faca uma busca por um produto$")
+    public void facaUmaBuscaPorUmProduto() throws Throwable {
         login.buscaProduto();
 
     }
@@ -47,8 +47,8 @@ public class comprasSteps {
     }
 
     //Segundo cenário
-    @Dado("^faça uma busca por acessorios$")
-    public void façaUmaBuscaPorAcessorios() throws Throwable {
+    @Dado("^faca uma busca por acessorios$")
+    public void facaUmaBuscaPorAcessorios() throws Throwable {
         login.buscaAcessorios();
 
     }
@@ -80,7 +80,7 @@ public class comprasSteps {
 
     @Quando("^escolher os produtos para compra$")
     public void escolherOsProdutosParaCompra() throws Throwable {
-       façaUmaBuscaPorAcessorios();
+       facaUmaBuscaPorAcessorios();
        escolherOsProdutos();
        adicionarAcessóriosNoCarrinho();
 
