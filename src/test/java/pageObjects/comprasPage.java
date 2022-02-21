@@ -26,9 +26,9 @@ public class comprasPage extends BasePage {
         clicarBotao(loja.btnMicrosoft);
         Thread.sleep(1000);
         clicarBotao(loja.btnPreco);
+        Thread.sleep(1000);
+        clicarBotao(loja.btnLoja);
         Thread.sleep(2000);
-        //clicarBotao(loja.btnLoja);
-        //Thread.sleep(2000);
 
 
     }
@@ -43,15 +43,15 @@ public class comprasPage extends BasePage {
 
     public void escolherProduto() throws InterruptedException {
         clicarBotao(loja.btnProduto);
-        Thread.sleep(2000);
+        Thread.sleep(4000);
 
     }
 
     public void adicionarSacola() throws InterruptedException {
         clicarBotao(loja.addSacola);
         Thread.sleep(2000);
-        clicarBotao(loja.btnGarantia);
-        Thread.sleep(1000);
+        //clicarBotao(loja.btnGarantia);
+        //Thread.sleep(1000);
 
 
     }
@@ -63,7 +63,6 @@ public class comprasPage extends BasePage {
         String quantidade = DriverFactory.getDriver().findElement(loja.btnCarrinho).getText();
         String valor = DriverFactory.getDriver().findElement(loja.btnValor).getText();
         System.out.println("Quantidade de produtos no carrinho: " + quantidade + ", totalizando " + valor);
-
 
     }
 
