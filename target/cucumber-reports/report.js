@@ -19,7 +19,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2238235500,
+  "duration": 2248013900,
   "status": "passed"
 });
 formatter.background({
@@ -77,50 +77,50 @@ formatter.match({
   "location": "comprasSteps.queOUsuarioEntraNoSiteDaLoja()"
 });
 formatter.result({
-  "duration": 4091996900,
+  "duration": 5551866400,
   "status": "passed"
 });
 formatter.match({
   "location": "comprasSteps.facaUmaBuscaPorUmProduto()"
 });
 formatter.result({
-  "duration": 13533029000,
+  "duration": 14418946300,
   "status": "passed"
 });
 formatter.match({
   "location": "comprasSteps.confirmaOResultadoDaBusca()"
 });
 formatter.result({
-  "duration": 2087380300,
+  "duration": 2097261500,
   "status": "passed"
 });
 formatter.match({
   "location": "comprasSteps.escolherUmProdutoDaBusca()"
 });
 formatter.result({
-  "duration": 6778790200,
+  "duration": 8755652900,
   "status": "passed"
 });
 formatter.match({
   "location": "comprasSteps.adicionarNoCarrinho()"
 });
 formatter.result({
-  "duration": 3262082000,
+  "duration": 3245418200,
   "status": "passed"
 });
 formatter.match({
   "location": "comprasSteps.oProdutoDeveEstarPresenteNoCarrinho()"
 });
 formatter.result({
-  "duration": 4437465600,
+  "duration": 5145001400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 149909200,
+  "duration": 156778900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 691298100,
+  "duration": 779691600,
   "status": "passed"
 });
 });

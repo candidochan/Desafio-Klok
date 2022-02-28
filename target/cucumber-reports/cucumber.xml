@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.270187">
-<testcase classname="Realizar Compra no site da Amazon Brasil" name="Validar Busca por produto" time="37.270187">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="42.398631">
+<testcase classname="Realizar Compra no site da Amazon Brasil" name="Validar Busca por produto" time="42.398631">
 <system-out><![CDATA[Dado que o usuario entra no site da loja....................................passed
 E faca uma busca por um produto.............................................passed
 E confirma o resultado da busca.............................................passed

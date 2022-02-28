@@ -27,7 +27,7 @@ public class comprasPage extends BasePage {
         Thread.sleep(1000);
         clicarBotao(loja.btnPreco);
         Thread.sleep(1000);
-        clicarBotao(loja.btnLoja);
+        //clicarBotao(loja.btnLoja);
         Thread.sleep(2000);
 
 
@@ -50,8 +50,8 @@ public class comprasPage extends BasePage {
     public void adicionarSacola() throws InterruptedException {
         clicarBotao(loja.addSacola);
         Thread.sleep(2000);
-        //clicarBotao(loja.btnGarantia);
-        //Thread.sleep(1000);
+        clicarBotao(loja.btnGarantia);
+        Thread.sleep(1000);
 
 
     }
